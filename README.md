@@ -1,3 +1,3 @@
-Transmisja Danych 2020
+# Transmisja Danych 2020
 Krystian Bartosik
 bk44266@zut.edu.pl
