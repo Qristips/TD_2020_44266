@@ -1,4 +1,4 @@
-﻿// Krystian Bartosik
+﻿/ Krystian Bartosik
 // bk44266@zut.edu.pl
 //   FEDCBA
 #define _USE_MATH_DEFINES 
@@ -59,7 +59,7 @@ int main()
     //kA = 5; kP = M_PI/2;
     kA = 70; kP = 70;
 
-    for (double t = 0.0; t < 1; t = t + 0.0001)
+    for (double t = 0.0; t < 1; t = t + 0.001)
     {
         //File << t << " " << TonProsty(1.0, 6.0, t) << endl;
         //File << t << " " << ModulacjaAmplitudy(kA, 6.0, t) << endl;
@@ -87,7 +87,7 @@ int main()
 	j = 0;
 	for (double t = 0.0; t <= 1; t = t + 0.001)
 	{
-		File << j * (0.001 /1.0) << " " << M[j] << endl;
+		File << j * (0.001 /size) << " " << M[j] << endl;
 		j++;
 	}
     
